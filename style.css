@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ 
+    
+}
+html{
+
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+
+background-color:rgb(217, 223, 235);
+}
+nav{
+
+    height: 80px;
+}
+
+  
+header{
+    box-sizing: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20%;
+    background-color: #24252A;
+    
+}
+
+
+.nav__links li {
+    display: inline-block ;
+    padding: 10px 20px;
+
+
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.navbar li a:hover {
+   color: #0088a9;
+}
+h1{
+    cursor: pointer;
+    
+}
+
+
+li, a{
+
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500 ;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+    
+}
+
+
+.box{
+ 
+padding-right: 40px;
+    font-family: 'El Messiri', sans-serif;
+    text-align: right;
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+   background-color: azure;
+    border: 2px solid rgb(38, 63, 92);
+    box-sizing: content-box;
+}
+
+
+.title{
+  
+    font-weight: bold;
+    color:rgb(228, 158, 27);
+}
+.content{
+   
+    color:black;
+}
+
+.hint{
+    
+color: red;
+font-size: 12px;
+}
+
+
+.benefit{
+
+    color:#0088a9;
+
+
+}
+
+
+
+
+
+
+
+
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+
+  .background{
+    background: rgba(34, 55, 99, 0.568);
+
+border: 4px outset rgb(255, 255, 255);
+height: 40px;
+
+
+  }
+
+
+
+
+
+
+
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #0A66C2;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #1DA1F2;
+}
+
+.wrapper .button:nth-child(2):hover .icon{
+  background: #333;
+}
+
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #0A66C2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
+}
+
+
+.dot {
+    height: 80px;
+    width: 80px;
+   background-color:  rgba(34, 55, 99, 0.568);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+  footer{
+
+    margin-top: auto;
+  }
+
+
+
+  .section{
+    height: 70px;
+    min-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+  }
+  .section span{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+  }
+
+
+
+
+
+  .reload {
+    font-family: Lucida Sans Unicode;
+  }
+  
+
+
+
+
+
